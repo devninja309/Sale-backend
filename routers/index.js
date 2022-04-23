@@ -28,6 +28,8 @@ router.post("/sale", Sales);
 router.get("/sale", getSales);
 router.get("/logsale", getLogSales)
 router.delete("/sale", deleteSales);
+
+
 // router.post("/login", Login);
 // router.get("/token", refreshToken);
 // router.delete("/logout", Logout);
